@@ -24,6 +24,10 @@ const CreateNote=(props)=>{
     }
     
     const addEvent=()=>{
+       if(!note.title.trim() && !note.content.trim()){
+            alert('Note is empty')
+            return;
+       }
        props.passNote(note)
        setNote({
         title:'',
