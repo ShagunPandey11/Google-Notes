@@ -17,14 +17,14 @@ A simple note-taking web app inspired by Google Keep. This app lets you create, 
 ---
 
 ## Folder Structure (Important Files)
-/src
+``` /src
 │
 ├── App.js               # Main component, handles state and mapping notes
 ├── CreateNote.js        # Handles form, input, and submitting new notes
 ├── Note.js              # Single note display & delete function
 |── Header.js            #  header component
 ├── index.js             # Renders the root component
-
+```
 ---
 
 ##  Features
